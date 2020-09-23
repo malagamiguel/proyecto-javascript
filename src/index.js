@@ -4,4 +4,16 @@ import { crearTodoHtml } from "./js/componentes";
 
 export const todoList = new TodoList();
 
-const tarea = new Todo("Aprender Javascript");
+todoList.todos.forEach((todo) => crearTodoHtml(todo));
+// Es lo mismo
+// todoList.todos.forEach(crearTodoHtml());
+
+// Usando localstorage
+// localStorage.setItem("mi-key", "abc123");
+
+// Usando sesionstorage
+// sessionStorage.setItem("mi-key", "abc123");
+
+// setTimeout(() => {
+//   localStorage.removeItem("mi-key");
+// }, 1500);
