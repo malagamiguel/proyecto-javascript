@@ -17,3 +17,11 @@ todoList.todos.forEach((todo) => crearTodoHtml(todo));
 // setTimeout(() => {
 //   localStorage.removeItem("mi-key");
 // }, 1500);
+
+// .....................................
+
+// const newTodo = new Todo("Aprender Javascript");
+// todoList.todos[0].imprimirClase();
+// newTodo.imprimirClase();
+
+// console.log("todos", todoList.todos);
